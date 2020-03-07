@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    height: 100vh;
+}
+
+.Label {
+    text-align: right;
+    grid-row-start: 1;
+    grid-row-end:  4;
+    background-color: #ecf0f1;
+    height: 50px;
+    font-size: 2.7em;
+    color: #2c3e50;
+    padding: 10px 20px;
+}
+
+.Calculator{
+    background-color: #ecf0f1;
+    width: 35vh;
+    border-radius: 15px;
+}
+
+.Painel {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.Painel > button, .Equals {
+    font-size: 1.5em;
+    color: #2c3e50;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    border: none;
+}
+
+.Operator {
+    background-color: #E7EAEF !important;
+}
+
+.Equals-Container{
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.Equals {
+    background-color: #1abc9c !important;
+    width: 100%;
+    color: #ecf0f1 !important;
+}
