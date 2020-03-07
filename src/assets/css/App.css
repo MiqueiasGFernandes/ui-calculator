@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
+    background-color: #81ecec;
     height: 100vh;
 }
 
@@ -44,6 +44,7 @@
     border-radius: 50px;
     background-color: #ecf0f1;
     cursor: pointer;
+    outline: 0;
     border: none;
 }
 
@@ -51,14 +52,9 @@
     background-color: #E7EAEF !important;
 }
 
-.Equals-Container{
-    display: flex;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
 .Equals {
     background-color: #1abc9c !important;
     width: 100%;
     color: #ecf0f1 !important;
 }
+
